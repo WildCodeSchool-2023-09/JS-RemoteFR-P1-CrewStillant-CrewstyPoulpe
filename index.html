@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+  <title>Mon Site Web</title>
+</head>
+
+<body>
+  <nav>
+    <img src="logo.png" alt="Logo Poulpe" class="logo">
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Liste complète</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div>
+    <button> Clique ici!<br>pour commencer</button>
+  </div>
+  <div>
+    <p>Salut à toi !<br>C’est sympa de venir me voir, comment tu t'appelles ?</p>
+    <input type="text" id="prenom" placeholder="Ton prénom">
+</div>
+<div>
+  <p>Super <span id="nomUtilisateur"></span> !</p>
+  <p>Aujourd’hui tu es plutôt :</p>
+  <button id="piratesButton">Pirates</button>
+  <button id="astronautesButton">Astronautes</button>
+  <button id="princessesButton">Princesses</button>
+</div>
+<div>
+    <p>Très bon choix !<br>Tu préfères les films avec :</p>
+    <button id="dessinsAnimesButton">Dessins animés</button>
+    <button id="acteursButton">Acteurs</button>
+</div>
+<div>
+  <p>J’ai bien réfléchi et je te propose une sélection de super films Julien.<br>Tu devrais bien t’amuser à les regarder !</p>
+  <button id="Voir la séléction">Voir la séléction</button>
+</div>
+
+  <div class="cards"></div>
+  <div>
+    <p>Contactez-nous</p>
+    <form>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+      <br>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <br>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p>Contact: <a href="mailto:wildcodeschool@gmail.com">wildcodeschool@gmail.com</a></p>
+  <p>Based in France, Bayonne 64100</p>
+  
+  <p>Suivez-nous sur les réseaux sociaux:</p>
+  <ul>
+    <li><a href="https://twitter.com/votrecompte">Twitter</a></li>
+    <li><a href="https://instagram.com/votrecompte">Instagram</a></li>
+    <li><a href="https://facebook.com/votrepage">Facebook</a></li>
+  </ul>
+</div>
+  <footer>
+    <p>wildcode</p>
+  </footer>
+</body>
+
+<script src=""></script>
+
+</html>
