@@ -8,99 +8,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-  <title>Poulpote</title>
+  <title>Mon Site Web</title>
 </head>
 
 <body>
   <nav>
-    
-    <img src="images/logo.png" alt="Logo Poulpe" class="logo">
-    <div id="mySidenav" class="sidenav">
-      <a id="closeBtn" href="#" class="close"> x </a>
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Liste complete</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-    
-    <a href="#" id="openBtn">
-      <span class="burger-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-    </a>
-
+    <img src="logo.png" alt="Logo Poulpe" class="logo">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="ListeComplete.html">Liste complète</a></li>
+      <li><a href="contacts.html">Contact</a></li>
+    </ul>
   </nav>
-
-
-  <div>
-    <button>Clique ici pour commencer</button>
+  <div class="fenetre-style" id="div1">
+    <button> Clique ici!<br>pour commencer</button>
   </div>
-  <div>
-    <p>Salut à toi !
-      <br>Cest sympa de venir me voir, comment tu t'appelles ?
-    </p>
-    <input type="text" id="prenom" placeholder="Ton prénom">
+  <div class="fenetre-style">
+    <p>Salut à toi !<br>C’est sympa de venir me voir, comment tu t'appelles ?</p>
+    <input type="text" id="prenom">
   </div>
-
-  <div>
+  <div class="fenetre-style" id="div1">
     <p>Super <span id="nomUtilisateur"></span> !</p>
-    <p>Aujourdhui tu es plutôt :</p>
+    <p>Aujourd’hui tu es plutôt :</p>
+    <button id="piratesButton">Pirates</button>
+    <button id="astronautesButton">Astronautes</button>
+    <button id="princessesButton">Princesses</button>
   </div>
-    <div> class="filter-buttons">
-      <button id="all">Tous</button>
-      <button id="pirates">Pirates</button>
-      <button id="astronautes">Astronautes</button>
-      <button id="princesses">Princesses</button>
-  </div>
-
-  <div>
-    <p>Très bon choix !
-      <br>Tu préfères les films avec :
-    </p>
+  <div class="fenetre-style" id="div2">
+    <p>Très bon choix !<br>Tu préfères les films avec :</p>
     <button id="dessinsAnimesButton">Dessins animés</button>
     <button id="acteursButton">Acteurs</button>
   </div>
 
-  <div>
-    <p>Jai bien réfléchi et je te propose une sélection de super films Julien.
-      <br>Tu devrais bien tamuser à les regarder !
-    </p>
-    <button id="voirLaSelection">Voir la sélection</button>
   </div>
-
-  <div class="cards"> </div>
-  <div>
-    <p>Contactez-nous</p>
-    <form>
-      <label for="fullName">Full Name:</label>
-      <input type="text" id="fullName" name="fullName" required>
-
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <button type="submit">Envoyer</button>
-    </form>
-    <img src="images/rock.png" alt="Logo Rock" class="logo">
-    <p>Contact: <a href="mailto:wildcodeschool@gmail.com">wildcodeschool@gmail.com</a></p>
-    <p>Based in France, Bayonne 64100</p>
-
-    <p>Suivez-nous sur les réseaux sociaux:</p>
-    
-    <ul>
-      <li><a href="https://twitter.com/votrecompte">Twitter</a></li>
-      <li><a href="https://instagram.com/votrecompte">Instagram</a></li>
-      <li><a href="https://facebook.com/votrepage">Facebook</a></li>
-    </ul>
-  </div>
-  
-  <script> src="script.js" </script>
 
 </body>
+
+<script src=""></script>
 
 </html>
