@@ -2,31 +2,55 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-  <title>Mon Site Web</title>
+  
+  <title>Poulpote</title>
+
 </head>
 
-<body>
-  <nav>
-    <img src="logo.png" alt="Logo Poulpe" class="logo">
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="ListeComplete.html">Liste complète</a></li>
-      <li><a href="contacts.html">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="fenetre-style" id="div1">
+  <body>
+  
+    <div class="topnav">
+      <img src="/html/logo.png" height="50" width="50">
+      <ul>
+      <li><a href="/html/index.html">Accueil</a></li>
+      <li><a href="/html/ListeComplete.html">Liste complète</a></li>
+      <li><a href="/html/contacts.html">Contact</a></li>
+      </ul>
+      
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+       <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+  <!-- Menu Toggle Button -->
+  
+   <div id="menuToggle">
+    <div class="burger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+   </div>
+
+   <div class="fenetre-style" id="div1">
     <button> Clique ici!<br>pour commencer</button>
   </div>
+  
   <div class="fenetre-style">
     <p>Salut à toi !<br>C’est sympa de venir me voir, comment tu t'appelles ?</p>
     <input type="text" id="prenom">
   </div>
+  
   <div class="fenetre-style" id="div1">
     <p>Super <span id="nomUtilisateur"></span> !</p>
     <p>Aujourd’hui tu es plutôt :</p>
@@ -34,16 +58,16 @@
     <button id="astronautesButton">Astronautes</button>
     <button id="princessesButton">Princesses</button>
   </div>
+
   <div class="fenetre-style" id="div2">
     <p>Très bon choix !<br>Tu préfères les films avec :</p>
     <button id="dessinsAnimesButton">Dessins animés</button>
     <button id="acteursButton">Acteurs</button>
   </div>
 
-  </div>
-
+  <!-- Include your JavaScript file here -->
+  <script src=""></script>
+  <script src="burger.js"></script>
 </body>
-
-<script src=""></script>
 
 </html>
