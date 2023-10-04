@@ -1,154 +1,187 @@
-body {
-    background: repeating-linear-gradient(to bottom, #5de0e6 0%, #004aad 100%);
-    min-height: 100vh;
+
+  body {
+      background: repeating-linear-gradient(to bottom, #5de0e6 0%, #004aad 100%);
+      min-height: 100vh;
+  }
+  
+  body,
+  button {
+      font-family: Bubblegum Sans;
+  }
+
+  .logo {
+      position: absolute;
+      left: 0;
+      padding-left: 20px;
+  }
+  
+  /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E2E0CE;
+  border-radius: 16px;
 }
 
-
-body,
-button {
-    font-family: Bubblegum Sans;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
 
-.logo {
-    width: 100px;
-    height: auto;
-    position: absolute;
-    left: 0;
-    padding-left: 20px;
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(90, 21, 21);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #E2E0CE;
-    border-radius: 16px;
+/* Style the hamburger menu */
+.topnav a.icon {
+  /*background: black;*/
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-nav a {
-    display: flex;
-    color: black;
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #203ea0;
+  color: black;
 }
 
-
-ul {
-    display: flex;
-    list-style: none;
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
 }
-
-a {
-    font-size: 25px;
-}
-
-li a {
-    text-decoration: none;
-    padding: 16px;
-}
-
-li a:hover {
-    background-color: #004aad;
-    color: #5de0e6;
-    border-radius: 10px;
-}
-
-h1 {
-    text-align: center;
-    font-size: 70px;
-    color: aliceblue;
-}
-
-button {
-    background: none;
-    border-style: none;
-    font-size: 50px;
-    color: aliceblue;
-}
-
-
-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    padding: 10px;
-}
-
-.fenetre-style p {
-    font-size: 24px;
-}
-
-.fenetre-style {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #5DE0E6;
-    border: none;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 50%;
-    height: 150%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.fenetre-style button {
-    margin-bottom: 10px;
-    width: 200px;
-    height: 60px;
-    font-size: 18px;
-    background-color: #D988B9;
-    border-radius: 10px;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.776);
-}
-
-.fenetre-style input[type="text"] {
-    background-color: #D2E0FB;
-    width: 300px;
-    height: 40px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
-    display: block;
-}
-
-.form {
-    display: flex;
-    border: none;
-
-}
-
-.input {
-    background-color: #BEFFF7;
-    border-style: none;
-    border-radius: 8px;
-}
-
-#message {
-    width: 200px;
-    height: 200px;
-    resize: vertical;
-}
-
-.taille-film {
-    height: 270px;
-    width: 198px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.contacts {
-    display: flex;
-    flex-direction: column;
-}
-
-.mailTo {}
+  
+  /*nav a {
+      display: flex;
+      color: black;
+  }*/
+  
+  ul {
+      display: flex;
+      list-style: none;
+  }
+  
+  a {
+      font-size: 25px;
+  }
+  
+  li a {
+      text-decoration: none;
+      padding: 16px;
+  }
+  
+  li a:hover {
+      background-color: #004aad;
+      color: #5de0e6;
+      border-radius: 10px;
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 70px;
+      color: aliceblue;
+  }
+  
+  button {
+      background: none;
+      border-style: none;
+      font-size: 50px;
+      color: aliceblue;
+  }
+  
+  div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  footer {
+      position: absolute;
+      bottom: 0;
+      padding: 10px;
+  }
+  
+  .fenetre-style p {
+      font-size: 24px;
+  }
+  
+  .fenetre-style {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: #5DE0E6;
+      border: none;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      width: 50%;
+      height: 150%;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .fenetre-style button {
+      margin-bottom: 10px;
+      width: 200px;
+      height: 60px;
+      font-size: 18px;
+      background-color: #D988B9;
+      border-radius: 10px;
+      box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.776);
+  }
+  
+  .fenetre-style input[type="text"] {
+      background-color: #D2E0FB;
+      width: 300px;
+      height: 40px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      display: block;
+  }
+  
+  .form {
+      display: flex;
+      border: none;
+  }
+  
+   .input {
+        background-color: #BEFFF7;
+        border-style: none;
+        border-radius: 8px;
+    }
+    
+    #message {
+        width: 200px;
+        height: 200px;
+        resize: vertical;
+    }
+    
+    .taille-film {
+        height: 270px;
+        width: 198px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mailTo {}
+  

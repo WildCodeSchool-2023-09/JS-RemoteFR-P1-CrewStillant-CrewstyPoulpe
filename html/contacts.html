@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-    <img src="logo.png" alt="Logo Poulpe" class="logo">
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="ListeComplete.html">Liste complète</a></li>
-      <li><a href="contacts.html">Contact</a></li>
-    </ul>
-  </nav>
 
+  <div class="topnav">
+    <img src="/html/logo.png" alt="Logo Poulpe" class="logo">
+    <a href="/html/index.html">Accueil</a>
+    <a href="/html/ListeComplete.html">Liste complète</a>
+    <a href="/html/contacts.html">Contact</a>
+   
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
     <div class="contacts">
     <h1>Contactez-nous</h1>
     <form>
@@ -44,5 +49,6 @@
       <li><a href="https://facebook.com/votrepage">Facebook</a></li>
     </ul>
   </div>
+  <script src="burger.js"></script>
 </body>
 </html>
