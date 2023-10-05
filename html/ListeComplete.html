@@ -5,76 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="topnav">
-        <img src="/html/logo.png" alt="Logo Poulpe" class="logo">
-        <a href="/html/index.html">Accueil</a>
-        <a href="/html/ListeComplete.html">Liste complète</a>
-        <a href="/html/contacts.html">Contact</a>
-       
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-
+    <nav class="topnav">
+        <img src="/html/logo.png" height="60" width="60">
+        <div class="nav-burger-section">
+          <ul class="menu-list">
+            <li><a href="/html/index.html">Accueil</a></li>
+            <li><a href="/html/ListeComplete.html">Liste complète</a></li>
+            <li><a href="/html/contacts.html">Contact</a></li>
+          </ul>
+          <label class="burger-button"><input id="menuToggle" type="checkbox"></label>
+        </div>
+      </nav>
+    
     <h1>Liste complète :</h1>
     <div class="categorie">
 
         <div class="images">
-            <img src="images/PirateAnime1.jpg" class="taille-film">
-            <img src="images/PirateAnime2.jpg" class="taille-film">
-            <img src="images/PirateAnime3.jpg" class="taille-film">
+            <img src="/images/PirateAnime1.jpg" class="taille-film">
+            <img src="/images/PirateAnime2.jpg" class="taille-film">
+            <img src="/images/PirateAnime3.jpg" class="taille-film">
         </div>
     </div>
     <div class="categorie">
 
         <div class="images">
-            <img src="images/PirateActeur1.jpg" class="taille-film">
-            <img src="images/PirateActeur2.jpg" class="taille-film">
-            <img src="images/PirateActeur3.jpg" class="taille-film">
+            <img src="/images/PirateActeur1.jpg" class="taille-film">
+            <img src="/images/PirateActeur2.jpg" class="taille-film">
+            <img src="/images/PirateActeur3.jpg" class="taille-film">
         </div>
     </div>
     <div class="categorie">
 
         <div class="images">
-            <img src="images/AnimeEspace1.jpg" class="taille-film">
-            <img src="images/AnimeEspace2.jpg" class="taille-film">
-            <img src="images/AnimeEspace3.jpg" class="taille-film">
+            <img src="/images/AnimeEspace1.jpg" class="taille-film">
+            <img src="/images/AnimeEspace2.jpg" class="taille-film">
+            <img src="/images/AnimeEspace3.jpg" class="taille-film">
         </div>
     </div>
     <div class="categorie">
 
         <div class="images">
-            <img src="images/ActeurEspace1.jpg" class="taille-film">
-            <img src="images/ActeurEspace2.jpg" class="taille-film">
-            <img src="images/ActeurEspace3.jpg" class="taille-film">
+            <img src="/images/ActeurEspace1.jpg" class="taille-film">
+            <img src="/images/ActeurEspace2.jpg" class="taille-film">
+            <img src="/images/ActeurEspace3.jpg" class="taille-film">
         </div>
     </div>
     <div class="categorie">
 
         <div class="images">
-            <img src="images/PrincesseAnime1.jpg" class="taille-film">
-            <img src="images/PrincesseAnime2.jpg" class="taille-film">
-            <img src="images/PrincesseAnime3.jpg" class="taille-film">
+            <img src="/images/PrincesseAnime1.jpg" class="taille-film">
+            <img src="/images/PrincesseAnime2.jpg" class="taille-film">
+            <img src="/images/PrincesseAnime3.jpg" class="taille-film">
         </div>
     </div>
     <div class="categorie">
 
         <div class="images">
-            <img src="images/PrincesseActeur1.jpg" class="taille-film">
-            <img src="images/PrincesseActeur2.jpg" class="taille-film">
-            <img src="images/PrincesseActeur3.jpg" class="taille-film">
+            <img src="/images/PrincesseActeur1.jpg" class="taille-film">
+            <img src="/images/PrincesseActeur2.jpg" class="taille-film">
+            <img src="/images/PrincesseActeur3.jpg" class="taille-film">
         </div>
     </div>
     </div>
     <div class="cards"></div>
-    <script src="burger.js"></script>
+    <script src="../js/burger.js"></script>
 </body>
 
 </html>

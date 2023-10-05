@@ -1,9 +1,17 @@
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-    const x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+
+ 
+document.addEventListener("change", function(event) {
+  const menuList = document.querySelector(".menu-list");
+    if (event.target.matches("#menuToggle")) {
+      if (event.target.checked) {
+        //console.log("Menu Opened");
+        menuList.style.display = "flex";
+      } 
+       else {
+        //console.log("Menu Closed");
+        menuList.style.display = "none";
+      }
+      
+    } 
+  
+  });

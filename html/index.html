@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,31 +17,18 @@
 
   <body>
   
-    <div class="topnav">
-      <img src="/html/logo.png" height="50" width="50">
-      <ul>
-      <li><a href="/html/index.html">Accueil</a></li>
-      <li><a href="/html/ListeComplete.html">Liste complète</a></li>
-      <li><a href="/html/contacts.html">Contact</a></li>
-      </ul>
-      
-      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-       <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
-
-  <!-- Menu Toggle Button -->
+    <nav class="topnav">
+      <img src="/html/logo.png" height="60" width="60">
+      <div class="nav-burger-section">
+        <ul class="menu-list">
+          <li><a href="/html/index.html">Accueil</a></li>
+          <li><a href="/html/ListeComplete.html">Liste complète</a></li>
+          <li><a href="/html/contacts.html">Contact</a></li>
+        </ul>
+        <label class="burger-button"><input id="menuToggle" type="checkbox"></label>
+      </div>
+    </nav>
   
-   <div id="menuToggle">
-    <div class="burger-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-   </div>
-
    <div class="fenetre-style" id="div1">
     <button> Clique ici!<br>pour commencer</button>
   </div>
@@ -65,9 +52,7 @@
     <button id="acteursButton">Acteurs</button>
   </div>
 
-  <!-- Include your JavaScript file here -->
-  <script src=""></script>
-  <script src="burger.js"></script>
+  <script src="../js/burger.js"></script>
 </body>
 
 </html>

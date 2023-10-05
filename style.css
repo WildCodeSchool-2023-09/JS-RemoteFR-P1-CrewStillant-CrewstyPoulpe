@@ -1,90 +1,97 @@
-
-  body {
-      background: repeating-linear-gradient(to bottom, #5de0e6 0%, #004aad 100%);
-      min-height: 100vh;
-  }
-  
-  body,
-  button {
-      font-family: Bubblegum Sans;
-  }
-
-  .logo {
-      position: absolute;
-      left: 0;
-      padding-left: 20px;
-  }
-  
-  /* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #E2E0CE;
-  border-radius: 16px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
+body {
+    background: repeating-linear-gradient(to bottom, #5de0e6 0%, #004aad 100%);
+    min-height: 100vh;
 }
 
-/* Style navigation menu links */
-.topnav a {
-  color: rgb(90, 21, 21);
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
+body, button {
+    font-family: Bubblegum Sans;
 }
 
-/* Style the hamburger menu */
-.topnav a.icon {
-  /*background: black;*/
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+
+/* NAVIGATION BAR */
+/* Style the navigation menu */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 0.6rem 2rem;
+    background-color: #E2E0CE;
+    border-radius: 16px;
+    margin: 1rem;
+}
+.nav-burger-section {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.menu-list{
+    display: none;
+}
+.burger-button input {
+    display: none;
+}
+.burger-button {
+    background-image: url('images/icons/burger-menu.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+}
+.burger-button:hover {
+    transform: scale(0.9);
 }
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #203ea0;
-  color: black;
+nav a {
+    color: rgb(90, 21, 21);
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+}
+nav a:hover {
+    background-color: #203ea0;
+    color: black;
 }
 
-/* Style the active link (or home/logo) */
 .active {
-  color: white;
+    color: white;
 }
-  
-  /*nav a {
-      display: flex;
-      color: black;
-  }*/
-  
-  ul {
-      display: flex;
-      list-style: none;
-  }
-  
-  a {
-      font-size: 25px;
-  }
-  
-  li a {
-      text-decoration: none;
-      padding: 16px;
-  }
-  
-  li a:hover {
-      background-color: #004aad;
-      color: #5de0e6;
-      border-radius: 10px;
-  }
-  
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    font-size: 2rem;
+}
+
+li a {
+    text-decoration: none;
+    padding: 16px;
+}
+
+li a:hover {
+    background-color: #004aad;
+    color: #5de0e6;
+    border-radius: 10px;
+}
+
+
+/* END OF NAVIGATION BAR */
+
+
+
+/* Content */
+ 
   h1 {
       text-align: center;
       font-size: 70px;
