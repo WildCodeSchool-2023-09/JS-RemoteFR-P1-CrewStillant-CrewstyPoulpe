@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
 }
 
-=======
->>>>>>> main
 body {
     background: repeating-linear-gradient(to bottom, #5de0e6 0%, #004aad 100%);
     min-height: 100vh;
@@ -27,23 +24,12 @@ button {
 
 nav {
     display: flex;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
     flex-direction: row-reverse;
     justify-content: space-between;
     position: relative;
     height: 20px;
     align-items: center;
     padding: 2rem 2rem;
-<<<<<<< HEAD
-=======
-=======
-    justify-content: space-around;
-    align-items: center;
->>>>>>> 229ee7c59ced205911d72cf771207100e308c54e
->>>>>>> main
     background-color: #E2E0CE;
     border-radius: 16px;
     margin: 1rem;
@@ -55,10 +41,6 @@ nav {
     gap: 1rem;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
 .menu-list {
     display: none;
     list-style: none;
@@ -66,24 +48,6 @@ nav {
 
 .burger-button input {
     display: none;
-<<<<<<< HEAD
-=======
-=======
-
-ul {
-    display: flex;
-    list-style: none;
-}
-
-a {
-    font-size: 25px;
-}
-
-li a {
-    text-decoration: none;
-    padding: 16px;
->>>>>>> 229ee7c59ced205911d72cf771207100e308c54e
->>>>>>> main
 }
 
 .burger-button {
@@ -125,15 +89,12 @@ h1 {
     text-align: center;
     font-size: 70px;
     color: aliceblue;
-<<<<<<< HEAD
-=======
 }
 
 h1 {
     text-align: center;
     font-size: 70px;
     color: aliceblue;
->>>>>>> main
 }
 
 button {
@@ -151,56 +112,16 @@ div {
     justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-footer {
-    position: absolute;
-    bottom: 0;
-    padding: 10px;
-}
-
->>>>>>> 229ee7c59ced205911d72cf771207100e308c54e
->>>>>>> main
 .fenetre-style p {
     font-size: 24px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
 /* Selection de films */
 
 .fenetre-style button {
     margin-bottom: 10px;
     margin-top: 5vh;
     margin-right: 10px;
-<<<<<<< HEAD
-=======
-=======
-.fenetre-style {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #5DE0E6;
-    border: none;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 50%;
-    height: 150%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.fenetre-style button {
-    margin-bottom: 10px;
->>>>>>> 229ee7c59ced205911d72cf771207100e308c54e
->>>>>>> main
     width: 200px;
     height: 60px;
     font-size: 18px;
@@ -209,10 +130,6 @@ footer {
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.776);
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -233,11 +150,6 @@ footer {
     }
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 229ee7c59ced205911d72cf771207100e308c54e
->>>>>>> main
 .fenetre-style input[type="text"] {
     background-color: #D2E0FB;
     width: 300px;
@@ -249,23 +161,14 @@ footer {
     display: block;
 }
 
-<<<<<<< HEAD
-.taille-film {
-    width: 300px;
-=======
-<<<<<<< HEAD
 .taille-film {
     width: 200px;
->>>>>>> main
     height: auto;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     border-radius: 30px;
-<<<<<<< HEAD
-=======
     z-index: 1;
->>>>>>> main
 }
 
 .taille-film:hover {
@@ -296,11 +199,7 @@ footer {
 }
 
 p {
-<<<<<<< HEAD
-    margin-top: 3%;
-=======
     margin-top: 10%;
->>>>>>> main
 }
 
 #startButton {
@@ -308,25 +207,6 @@ p {
     animation: pulse 2s infinite;
 }
 
-<<<<<<< HEAD
-.card {
-    display: inline-block;
-}
-
-.card-img {
-    width: 400px;
-    height: 400px;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.card-button {
-    position: absolute;
-    bottom: 350px;
-}
-
-=======
->>>>>>> main
 #imagePoulpe {
     position: fixed;
     bottom: 0;
@@ -354,36 +234,6 @@ textarea {
 .submit {
     margin-left: 120px;
     margin-bottom: 20px;
-<<<<<<< HEAD
-=======
-=======
-.form {
-    display: flex;
-    border: none;
-
-}
-
-.input {
-    background-color: #BEFFF7;
-    border-style: none;
-    border-radius: 8px;
-}
-
-#message {
-    width: 200px;
-    height: 200px;
-    resize: vertical;
-}
-
-.taille-film {
-    height: 270px;
-    width: 198px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-
->>>>>>> 229ee7c59ced205911d72cf771207100e308c54e
->>>>>>> main
 }
 
 .contacts {
@@ -391,10 +241,6 @@ textarea {
     flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
 .mailTo {
     text-decoration: none;
     color: aliceblue;
@@ -417,15 +263,13 @@ textarea {
 
 @media screen and (max-width: 600px) {
     .nav-burger-section {
-<<<<<<< HEAD
-        display: flex;
-        flex-direction: row;
+        display: block;
         gap: 1rem;
     }
 
-li .bar {
-    font-size: 15px;
-}
+    li .bar {
+        font-size: 15px;
+    }
 
     .logo {
         padding-left: 10px;
@@ -433,10 +277,8 @@ li .bar {
 
     .burger-button {
         display: block;
-=======
         display: block;
         gap: 1rem;
->>>>>>> main
     }
 
     .fenetre-style {
@@ -742,11 +584,4 @@ li .bar {
     left: 10px;
     position: absolute;
     width: 180px;
-<<<<<<< HEAD
-=======
-=======
-.mailTo{
-    
->>>>>>> 229ee7c59ced205911d72cf771207100e308c54e
->>>>>>> main
 }
