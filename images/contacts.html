@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Contacts</title>
+</head>
+
+<body>
+
+  <nav>
+    <img src="/logo/logo.png" alt="Logo Poulpe" class="logo">
+    <div class="nav-burger-section">
+      <ul class="menu-list">
+        <li><a href="index.html" class="bar">Accueil</a></li>
+        <li><a href="ListeComplete.html" class="bar">Liste complète</a></li>
+        <li><a href="contacts.html" class="bar">Contact</a></li>
+      </ul>
+      <label class="burger-button"><input id="menuToggle" type="checkbox"></label>
+    </div>
+  </nav>
+
+  <div class="contacts">
+    <h1>Contactez-nous</h1>
+    <form>
+      <br>
+      <label class="form" for="Name">Nom et Prénom :</label>
+      <input class="input" type="text" id="fullName" name="fullName" placeholder="Ton Nom complet">
+      <br><br>
+
+      <label class="form" for="email">E-mail :</label>
+      <input class="input" type="text" id="email" name="email" placeholder="Ton E-mail">
+      <br><br>
+
+      <label class="form" for="text">Votre message :</label>
+      <textarea class="input" id="message" name="message" placeholder="écris ton message ici!"></textarea>
+      <br><br><br>
+      <button type="submit" class="submit">Envoyer</button>
+    </form>
+    <p class="adress">Contact : <a href="mailto:wildcodeschool@gmail.com" class="mailTo">wildcodeschool@gmail.com</a>
+    </p>
+    <p class="adress">Based in France, Bayonne 64100</p>
+
+    <p class="adress">Suivez-nous sur les réseaux sociaux:</p>
+    <ul class="social">
+      <li><a href="https://twitter.com/votrecompte"><img src="/logo/twitter.png" alt="" class="social"></a></li>
+      <li><a href="https://instagram.com/votrecompte"><img src="/logo/instagram.png" alt="" class="social"></a></li>
+      <li><a href="https://facebook.com/votrepage"><img src="/logo/facebook.png" alt="" class="social"></a></li>
+    </ul>
+    <img src="/logo/logo.png" id="imagePoulpe" alt="">
+    <script src="/script/burger.js"></script>
+  </div>
+
+  <div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+  </div>
+</body>
+
+</html>
