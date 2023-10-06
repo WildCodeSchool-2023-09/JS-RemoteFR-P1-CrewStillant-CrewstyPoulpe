@@ -2,72 +2,72 @@
 <html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-  
-  <title>Poulpote</title>
-
+  <title>Mon Site Web</title>
 </head>
 
-  <body>
-  
-    <div class="topnav">
-      <img src="/html/logo.png" height="50" width="50">
-      <ul>
-      <li><a href="/html/index.html">Accueil</a></li>
-      <li><a href="/html/ListeComplete.html">Liste complète</a></li>
-      <li><a href="/html/contacts.html">Contact</a></li>
+<body>
+  <nav>
+    <img src="/logo/logo.png" alt="Logo Poulpe" class="logo">
+    <div class="nav-burger-section">
+      <ul class="menu-list">
+        <li><a href="index.html" class="bar">Accueil</a></li>
+        <li><a href="ListeComplete.html" class="bar">Liste complète</a></li>
+        <li><a href="contacts.html" class="bar">Contact</a></li>
       </ul>
-      
-      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-       <i class="fa fa-bars"></i>
-      </a>
+      <label class="burger-button"><input id="menuToggle" type="checkbox"></label>
     </div>
+  </nav>
 
 
-  <!-- Menu Toggle Button -->
-  
-   <div id="menuToggle">
-    <div class="burger-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-   </div>
-
-   <div class="fenetre-style" id="div1">
-    <button> Clique ici!<br>pour commencer</button>
+  <div class="fenetre-style show" id="div1" onkeyup="recherche1(getReceive1);">
+    <button id="startButton"> Clique ici!<br>pour commencer</button>
   </div>
-  
-  <div class="fenetre-style">
-    <p>Salut à toi !<br>C’est sympa de venir me voir, comment tu t'appelles ?</p>
-    <input type="text" id="prenom">
+  <div class="fenetre-style category" id="div2">
+    <p> Salut à toi !<br><br>C’est super sympa de venir me voir !<br><br>
+      Aujourd’hui tu es plutôt :</p>
+    <button class="catButton" value="Pirates">Pirates</button>
+    <button class="catButton" value="Astronautes">Astronautes</button>
+    <button class="catButton" value="Princesses">Princesses</button>
   </div>
-  
-  <div class="fenetre-style" id="div1">
-    <p>Super <span id="nomUtilisateur"></span> !</p>
-    <p>Aujourd’hui tu es plutôt :</p>
-    <button id="piratesButton">Pirates</button>
-    <button id="astronautesButton">Astronautes</button>
-    <button id="princessesButton">Princesses</button>
-  </div>
-
-  <div class="fenetre-style" id="div2">
+  <div class="fenetre-style style" id="div3">
     <p>Très bon choix !<br>Tu préfères les films avec :</p>
-    <button id="dessinsAnimesButton">Dessins animés</button>
-    <button id="acteursButton">Acteurs</button>
+    <button class="styleButton" value="Film">Film</button>
+    <button class="styleButton" value="Animation">Animation</button>
+  </div>
+  <div class="fenetre-style" id="div4">
+    <p>J’ai bien réfléchi et je te propose une sélection de super films.<br><br><br>Tu devrais bien t’amuser à les
+      regarder !</p>
+    <button id="laSelectionButton">Voir la séléction</button>
+  </div>
+  <div class="fenetre-style" id="div5">
+    <p>Ta sélection :
+      <div class="cards"></div>
+    </p>
   </div>
 
-  <!-- Include your JavaScript file here -->
-  <script src=""></script>
-  <script src="burger.js"></script>
+  <img src="/logo/logo.png" id="imagePoulpe" alt="">
+
+  <div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+  </div>
+
+  <script src="/script/script.js"></script>
+  <script src="/script/burger.js"></script>
 </body>
 
 </html>
